@@ -139,13 +139,13 @@ class ViewController: UIViewController {
             photoLabel.heightAnchor.constraint(equalToConstant: 15),
             
             photo1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
-            photo1.widthAnchor.constraint(equalToConstant: (view.frame.width/2) - 30),
-            photo1.heightAnchor.constraint(equalToConstant: (view.frame.width/2) - 30),
+            photo1.widthAnchor.constraint(equalToConstant: (view.frame.width/2) - 25),
+            photo1.heightAnchor.constraint(equalToConstant: (view.frame.width/2) - 25),
             photo1.topAnchor.constraint(equalTo: photoLabel.bottomAnchor, constant: 14),
             
             photo2.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
-            photo2.widthAnchor.constraint(equalToConstant: (view.frame.width/2) - 30),
-            photo2.heightAnchor.constraint(equalToConstant: (view.frame.width/2) - 30),
+            photo2.widthAnchor.constraint(equalToConstant: (view.frame.width/2) - 25),
+            photo2.heightAnchor.constraint(equalToConstant: (view.frame.width/2) - 25),
             photo2.topAnchor.constraint(equalTo: photoLabel.bottomAnchor, constant: 14),
             
             editButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -56),
